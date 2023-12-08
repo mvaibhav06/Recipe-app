@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-btn {
+  width: 120px;
+}
+
+.recipe-img {
+  width: 200px;
+  height: 250px;
+}
+
+.recipe {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid pink;
+  width: 250px;
+  align-items: center;
+}
+
+.main-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.modal-first {
+  display: flex;
+  gap: 20px;
+}
+
+.instructions {
+  flex: none;
+}
